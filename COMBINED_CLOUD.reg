@@ -1,0 +1,43 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Interwoven\WorkSite\8.0\Common\Options]
+"Enable Hosted DM SSL"="Y"
+"Use Hosted DM"="Y"
+"Hosted DM ServicePort"=dword:000001bb
+"Use Service Port for FileXfer"="Y"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Interwoven\WorkSite\8.0\Common\Options\Servers]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Interwoven\WorkSite\8.0\Common\Options\Servers\CLARKELBING-DMS.IMANAGE.WORK]
+"ADFSEnabled"="Y"
+"RestUrl"="https://ClarkElbing-mobility.imanage.work"
+
+[-HKEY_CURRENT_USER\SOFTWARE\Interwoven\Worksite\8.0\Common\Login\RegisteredServers\DMS]
+[HKEY_CURRENT_USER\SOFTWARE\Interwoven\Worksite\8.0\Common\Login\RegisteredServers]
+"LastAuthType"=dword:00000001
+"Last Server"="CLARKELBING-DMS.IMANAGE.WORK"
+
+[HKEY_CURRENT_USER\SOFTWARE\Interwoven\WorkSite\8.0\Common\Login\RegisteredServers\CLARKELBING-DMS.IMANAGE.WORK]
+"AutoLogin"="Y"
+"Local"="N"
+"ServerName"="CLARKELBING-DMS.IMANAGE.WORK"
+"TrustedLogin"="N"
+"RestURL"="https://ClarkElbing-mobility.imanage.work"
+"ADFSEnabled"="Y"
+"AuthType"=dword:00000001
+"Databases"=hex(7):63,00,65,00,64,00,6f,00,63,00,73,00,00,00,00,00
+
+
+
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Interwoven\WorkSite\8.0\Common\Options]
+"Enable Hosted DM SSL"="Y"
+"Use Hosted DM"="Y"
+"Hosted DM ServicePort"=dword:000001bb
+"Use Service Port for FileXfer"="Y"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Interwoven\WorkSite\8.0\Common\Options\Servers]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Interwoven\WorkSite\8.0\Common\Options\Servers\CLARKELBING-DMS.IMANAGE.WORK]
+"ADFSEnabled"="Y"
+"RestUrl"="https://ClarkElbing-mobility.imanage.work"
